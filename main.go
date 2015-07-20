@@ -153,7 +153,7 @@ Wuttup gophers!
 segment.com/jobs/
 `)
 			f += 1
-			time.Sleep(70000)
+			time.Sleep(50 * time.Millisecond)
 		}
 	}
 }
